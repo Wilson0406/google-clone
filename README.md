@@ -1,6 +1,22 @@
 # Woogle - Google Clone
 
-Live Demo [woogle-123.netlify.com](https://woogoogle.netlify.app/)
+Live Demo [woogoogle.netlify.com](https://woogoogle.netlify.app/)
+
+## Steps to create your search engine:
+
+1. Go to https://cse.google.com/cse/create/new and write www.google.com in Sites to search .
+2. Under Edit search engine option, click Setup.
+3. Switch on the Search the entire web option.
+4. Click on Copy to clipboard in the Search engine ID.
+5. Paste the ID in CONTEXT_KEY in useGoogleSearch.js
+
+## Steps to get Google Custom Search API:
+
+1. Go to https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key
+2. Click on Get a Key button.
+3. Select existing project or create a new project and press next.
+4. Copy your API_KEY and paste in keys.js
+
 
 # Getting Started with Create React App
 
