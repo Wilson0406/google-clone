@@ -1,0 +1,67 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.home__header {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 30px;
+     align-items: center;
+}
+
+.home__header a {
+    margin-right: 20px;
+    text-decoration: inherit;
+    columns: rgba(0,0,0,0.87);;
+    font-size: 15px;
+}
+
+.home__header a:hover {
+    text-decoration: underline;
+}
+
+.home__headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13wv;
+    justify-content: space-between;
+}
+
+.home__headerRight > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 9%;
+    flex-direction: column;
+}
+
+.woogle__logo {
+    object-fit: contain;
+    width: 150px;
+    height: 100px;
+    transform: scale(2.65);
+    margin-bottom: 10px;
+}
+
+.home__body > img {
+    /* margin: 0 0; */
+    object-fit: contain;
+}
+
+.woogle__credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 132, 234);
+    font-size: 10px;
+    /* object-fit: contain; */
+    /* margin-top: 4px; */
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
