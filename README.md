@@ -17,6 +17,14 @@ Live Demo [woogoogle.netlify.com](https://woogoogle.netlify.app/)
 3. Select existing project or create a new project and press next.
 4. Copy your API_KEY and paste in keys.js
 
+# Screenshots
+
+## Homepage
+![Homepage](https://github.com/Wilson0406/google-clone/blob/main/woogleHome.png)
+<br><br>
+## Search Page
+![Searchpage](https://github.com/Wilson0406/google-clone/blob/main/woogleSearch.png)
+
 
 # Getting Started with Create React App
 
